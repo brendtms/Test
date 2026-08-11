@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Story</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="showStory()">Press to Continue</button>
+
+  <div id="story" class="hidden">
+    <h1 style="text-decoration: underline;">POWER</h1>
+    <p>Kabalo ka unsay nindot kung naa kay power?
+Power nga makahatag nimo og kahayag kung ngitngit ang tanan.
+Power nga makapawala sa imong problema.
+Power nga makahatag nimo og kusog kung kapoy naka. Power nga makapausab sa imong kinabuhi…
+Pero bitaw, naa kay 1k diha? Pautanga sa ko bi, bayran ra nako sa katapusan.</p>
+<br></br>
+<video width="600" controls>
+    <source src="vid1.mp4" type="video/mp4">
+  </video>
+  </div>
+  
+
+  <script>
+    function showStory() {
+      document.getElementById("story").classList.remove("hidden");
+      document.querySelector("button").style.display = "none";
+    }
+  </script>
+</body>
+</html>

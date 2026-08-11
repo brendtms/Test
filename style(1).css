@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  background-color: #EFC16C;
+  padding: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #D89D49;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-family: "Poppins'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  background-color: #2980B9;
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #2C3E50;
+}
+
+p {
+  border: 2px solid #E96338;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #E48150;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: left;
+}
+
+video {
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 20px auto;
+  display: block;
+  height: 300px;
+  border: 2px solid #E96338;
+}
+
+.hidden {
+  display: none;
+}
+
+#story {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
